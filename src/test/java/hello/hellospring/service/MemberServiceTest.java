@@ -21,6 +21,7 @@ class MemberServiceTest {
   public void beforeEach(){
     memberRepository = new MemoryMemberRepository();
     memberService = new MemberService(memberRepository); //dependency injection
+
   }
   @AfterEach
   public void afterEach(){
